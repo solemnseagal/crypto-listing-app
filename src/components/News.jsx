@@ -31,7 +31,7 @@ const News = ({ simplified }) => {
     },
     headers: {
       "X-BingApis-SDK": "true",
-      "X-RapidAPI-Key": "8345a8491cmsh8d80f4d1f33793cp1e9fd9jsneba162ad543c",
+      "X-RapidAPI-Key": process.env.BING_NEWS_API_KEY,
       "X-RapidAPI-Host": "bing-news-search1.p.rapidapi.com",
     },
   };
